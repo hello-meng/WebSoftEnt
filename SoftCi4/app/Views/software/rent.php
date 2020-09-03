@@ -35,15 +35,6 @@
 
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-6 col-md-6">
-                                <img src="<?= base_url('img/products/rent/rent1.jpg'); ?>" alt="">
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="blog__details__item__text">
-                                    <p>5G NR is a new air interface being developed for 5G. An air interface is the
-                                    radio frequency portion of</p>
-                                </div>
-                            </div>   -->
                         </div>
                     </div>
                     <!-- <div class="blog__details__desc">
