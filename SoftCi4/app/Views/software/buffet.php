@@ -11,7 +11,7 @@
                     <div class="blog__details__author">
                     </div>
                     <h2>
-                        โปรแกรมสำหรับร้านอาหารและบุฟเฟต์<br />
+                        โปรแกรมสำหรับร้านอาหารและบุฟเฟต์ Test Github<br />
                     </h2>
                 </div>
             </div>
