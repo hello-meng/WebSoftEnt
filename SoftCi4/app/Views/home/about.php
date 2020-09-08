@@ -15,9 +15,13 @@
                     <div class="section-title">
                         <h2>Welcome to<br /> <?= $companyName1 ?></h2>
                         <p>
-                            It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets
+                        บริษัทดำเนินธุรกิจ ออกแบบพัฒนาระบบ ซอฟท์แวร์ และจำหน่ายอุปกรณ์ไอทีครบวงจร 
+                        รับให้คำปรึกษาเกี่ยวกับ ซอฟท์แวร์ ฮาร์ดแวร์ และ เน็ตเวิร์ค
+                        โดยมุ่งหวังให้ลูกค้าได้รับความประทับใจในการบริการมากที่สุด 
+                        ซอฟท์แวร์ที่พัฒนาขึ้นมาได้มีบริษัทชั้นนำได้ใช้งานจริงมากกว่า 10 ปี 
+                        สามารถรองรับข้อมูลปริมาณจำนวนมากโดยไม่มีปัญหา 
+                        และบุคคลากรที่พัฒนามีประสบการณ์มากกว่า 20 ปี 
+                        ซึ่งสามารถพัฒนาซอฟท์แวร์ได้ความต้องการของลูกค้า ตรงจุดประสง รวดเร็ว 
                         </p>
                     </div>
                     <span>Manager: Kwanchai Kijkunasatian</span>
@@ -40,43 +44,27 @@
                 <div class="section-title">
                     <h2>Our History & Awards</h2>
                     <p>
-                        Cars is an auto repair and car wash service. Our company was founded in 1998 by a group of
-                        experts with extensive experience in this field
+                    บริษัทของเราก่อตั้งขึ้นในปี 2550 โดยกลุ่มผู้เชี่ยวชาญที่มีประสบการณ์ในด้านนี้
                     </p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="history__item">
-                    <span>2009</span>
+                    <span>2550</span>
                     <h4>Open Company</h4>
-                    <p>Risus commodo viverra maecenas accumsan</p>
+                    <p>จดทะเบียนจัดตั้งบริษัท</p>
                 </div>
                 <div class="history__item">
-                    <span>2015</span>
+                    <!-- <span>2562</span>
                     <h4>Ars Fennica Award</h4>
-                    <p>Risus commodo viverra maecenas accumsan</p>
-                </div>
-                <div class="history__item">
-                    <span>2019</span>
-                    <h4>Best Family Cars of 2019</h4>
-                    <p>Risus commodo viverra maecenas accumsan</p>
+                    <p>Risus commodo viverra maecenas accumsan</p> -->
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="history__item">
-                    <span>2012</span>
-                    <h4>Ars Fennica Award</h4>
-                    <p>Risus commodo viverra maecenas accumsan</p>
-                </div>
-                <div class="history__item">
-                    <span>2017</span>
-                    <h4>Open Another Branch</h4>
-                    <p>Risus commodo viverra maecenas accumsan</p>
-                </div>
-                <div class="history__item">
-                    <span>2020</span>
-                    <h4>2020 Best Buy Awards</h4>
-                    <p>Risus commodo viverra maecenas accumsan</p>
+                    <span>2560</span>
+                    <h4>Reband Company</h4>
+                    <p>บริษัทได้ทำการเปลี่ยนชื่อเป็น Soft Enterprises</p>
                 </div>
             </div>
         </div>
