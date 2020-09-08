@@ -102,7 +102,7 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('network') ?>"><span class="head__fn">Network</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('hardware') ?>"><span class="head__fn">Hardware</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= site_url('home/contact') ?>"><span class="head__fn">Contact</span></a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home/contact') ?>"><span class="head__fn">Contact</span></a></li> -->
                 </ul>
             </div>
         </div>
