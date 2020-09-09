@@ -91,13 +91,72 @@
     }
 }
 
+.blog__details__text__rent {
+    margin-bottom: 60px;
+
+    p {
+        /*font-size: 17px;*/
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 40px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    h4 {
+        font-weight: 700;
+        line-height: 27px;
+        margin-bottom: 36px;
+    }
+}
+
+.blog__details__item__text__rent {
+    margin-bottom: 30px;
+    /*Meng Edit*/
+    h4 {
+        font-weight: 700;
+        line-height: 27px;
+        margin-bottom: 36px;
+    }
+
+    p {
+        //font-size: 17px;
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    ul {
+        li {
+            //font-size: 17px;
+            font-size: 20px;
+        }
+    }
+}
+
 .blog__details__desc {
     margin-bottom: 80px;
 
     p {
-        font-size: 17px;
+        font-size: 20px;
         line-height: 27px;
         margin-bottom: 0;
+    }
+}
+
+.blog__details__desc__rent {
+    margin-bottom: 80px;
+
+    p {
+        font-size: 20px;
+        line-height: 27px;
+        margin-bottom: 20px;
     }
 }
 

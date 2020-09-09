@@ -2199,14 +2199,70 @@ ol {
   font-size: 20px;
 }
 
+.blog__details__text__rent {
+  margin-bottom: 60px;
+}
+
+.blog__details__text__rent p {
+  /*font-size: 17px;*/
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.blog__details__text__rent p:last-child {
+  margin-bottom: 0;
+}
+
+.blog__details__text__rent h4 {
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 36px;
+}
+
+.blog__details__item__text__rent {
+  margin-bottom: 30px;
+  /*Meng Edit*/
+}
+
+.blog__details__item__text__rent h4 {
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 36px;
+}
+
+.blog__details__item__text__rent p {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.blog__details__item__text__rent p:last-child {
+  margin-bottom: 0;
+}
+
+.blog__details__item__text__rent ul li {
+  font-size: 20px;
+}
+
 .blog__details__desc {
   margin-bottom: 80px;
 }
 
 .blog__details__desc p {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 27px;
   margin-bottom: 0;
+}
+
+.blog__details__desc__rent {
+  margin-bottom: 80px;
+}
+
+.blog__details__desc__rent p {
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 20px;
 }
 
 .blog__details__social {
