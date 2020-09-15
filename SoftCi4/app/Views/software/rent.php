@@ -43,7 +43,7 @@
                         </div>
                     </div> -->
                     <div class="blog__details__desc__rent">
-                        <p>โปรแกรมเช่า สามารถใช้ได้กับร้านเช่าทุกประเภท เช่น เช่าชุดไทย เช่าจักรยาน เช่าชุดว่ายน้ำ ฯลฯ</p>
+                        <p><i class="fa fa-check-circle"></i>โปรแกรมเช่า สามารถใช้ได้กับร้านเช่าทุกประเภท เช่น เช่าชุดไทย เช่าจักรยาน เช่าชุดว่ายน้ำ ฯลฯ</p>
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
                                 <img src="<?= base_url('img/products/rent/rent1.jpg'); ?>" alt="">  

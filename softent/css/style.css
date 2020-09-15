@@ -2205,7 +2205,7 @@ ol {
 
 .blog__details__text__rent p {
   /*font-size: 17px;*/
-  font-size: 20px;
+  font-size: 22px;
   line-height: 27px;
   margin-bottom: 40px;
 }
@@ -2216,7 +2216,7 @@ ol {
 
 .blog__details__text__rent h4 {
   font-weight: 700;
-  line-height: 27px;
+  line-height: 30px;
   margin-bottom: 36px;
 }
 
@@ -2232,7 +2232,7 @@ ol {
 }
 
 .blog__details__item__text__rent p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 27px;
   margin-bottom: 20px;
 }
@@ -2242,7 +2242,7 @@ ol {
 }
 
 .blog__details__item__text__rent ul li {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .blog__details__desc {
@@ -2260,7 +2260,7 @@ ol {
 }
 
 .blog__details__desc__rent p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 27px;
   margin-bottom: 20px;
 }
