@@ -111,7 +111,7 @@
             </div>
             <div class="col-lg-3 p-0 order-lg-5 col-md-6 order-md-6">
                 <div class="services__pic">
-                    <a href="<?= site_url('software/largeshop ') ?>"><img src="<?= base_url('img/services/largeshop.jpg'); ?>" alt=""></a>
+                    <a href="<?= site_url('software/largeshop') ?>"><img src="<?= base_url('img/services/largeshop.jpg'); ?>" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-8">

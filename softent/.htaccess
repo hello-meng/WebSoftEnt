@@ -10,5 +10,6 @@ RewriteRule . /index.php [L]
 #https
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+SetEnv CI_ENVIRONMENT development
 
 # END WordPress

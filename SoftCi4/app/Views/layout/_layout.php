@@ -89,20 +89,24 @@
                             <a class="dropdown-item" href="<?= site_url('software/buffet') ?>"><span class="head__fn__item">โปรแกรม Buffet & A la carte</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/restaurant') ?>"><span class="head__fn__item">โปรแกรม Restaurant Bistro ,Coffee Shop</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/qsr') ?>"><span class="head__fn__item">โปรแกรม Quick Service Restaurant (QSR)</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/foodzone') ?>"><span class="head__fn__item">โปรแกรม Shop Zone ,Food Zone</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรมร้าน Jewelry</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/mediumshop') ?>"><span class="head__fn__item">โปรแกรมร้าน Shop, Minimart</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/largeshop') ?>"><span class="head__fn__item">โปรแกรม Department Store</span></a>
+                            <!-- <a class="dropdown-item" href="<?= site_url('software/foodzone') ?>"><span class="head__fn__item">โปรแกรม Shop Zone ,Food Zone</span></a> -->                            
+                            <a class="dropdown-item" href="<?= site_url('software/onepos') ?>"><span class="head__fn__item">โปรแกรม 1 Pos</span></a>
+                            <!-- <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรมร้าน Jewelry</span></a> -->
+                            <a class="dropdown-item" href="<?= site_url('software/mediumshop') ?>"><span class="head__fn__item">โปรแกรมร้าน Shop, Minimart</span></a>                            
+                            <a class="dropdown-item" href="<?= site_url('software/departmentstore') ?>"><span class="head__fn__item">โปรแกรม Department Store</span></a>
+                            <a class="dropdown-item" href="<?= site_url('software/dutyfree') ?>"><span class="head__fn__item">Duty free / Jewelry / Tour shop</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/rent') ?>"><span class="head__fn__item">โปรแกรมระบบเช่า</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/carservices') ?>"><span class="head__fn__item">โปรแกรมอู่ซ่อมรถ</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/booking') ?>"><span class="head__fn__item">โปรแกรมจัดการจองจัดยานพาหนะ</span></a>
+                            <!-- <a class="dropdown-item" href="<?= site_url('software/booking') ?>"><span class="head__fn__item">โปรแกรมจัดการจองจัดยานพาหนะ</span></a> -->
                             <a class="dropdown-item" href="<?= site_url('software/sop') ?>"><span class="head__fn__item">S&OP และ S&OP Commission</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/consultation') ?>"><span class="head__fn__item">รับปรึกษาและพัฒนาโปรแกรมตามความต้องการ</span></a>
+                            <!-- <a class="dropdown-item" href="<?= site_url('software/consultation') ?>"><span class="head__fn__item">รับปรึกษาและพัฒนาโปรแกรมตามความต้องการ</span></a> -->
                         </div>
                     </li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('feature') ?>"><span class="head__fn">Feature</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('pricing') ?>"><span class="head__fn">Price</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('network') ?>"><span class="head__fn">Network</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('hardware') ?>"><span class="head__fn">Hardware</span></a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home/contact') ?>"><span class="head__fn">Contact</span></a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('contactus') ?>"><span class="head__fn">Contact</span></a></li>
                 </ul>
             </div>
         </div>

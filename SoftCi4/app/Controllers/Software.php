@@ -32,11 +32,29 @@ class Software extends BaseController
 		$data['title'] = "Shop Zone, Food Zone";
 		return view('software/foodzone',$data);
     }
-    
+	
+	public function onepos()
+	{
+		$data['title'] = "1 POS";
+		return view('software/onepos',$data);
+    }
+
     public function jewelry()
 	{
 		$data['title'] = "Jewelry Shop";
 		return view('software/jewelry',$data);
+	}
+	
+	public function departmentstore()
+	{
+		$data['title'] = "Department Store";
+		return view('software/departmentstore',$data);
+	}
+	
+	public function dutyfree()
+	{
+		$data['title'] = "Dury Free / Jewelry / Tour shop";
+		return view('software/dutyfree',$data);
     }
     
     public function mediumshop()
@@ -44,13 +62,7 @@ class Software extends BaseController
 		$data['title'] = "Minimart Shop";
 		return view('software/mediumshop',$data);
     }
-    
-    public function largeshop()
-	{
-		$data['title'] = "Department Store";
-		return view('software/largeshop',$data);
-    }
-    
+        
     public function rent()
 	{
 		$data['title'] = "โปรแกรมเช่า";

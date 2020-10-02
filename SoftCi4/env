@@ -14,12 +14,14 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = production
-#CI_ENVIRONMENT = development
+# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
+
+# app.forceGlobalSecureRequests = false
 
 
 #### http no secure
@@ -27,11 +29,13 @@ CI_ENVIRONMENT = production
 
 
 #### https secure
-app.baseURL = 'https://softenterprises-th.com'
+# app.baseURL = 'https://softenterprises-th.com'
+# app.forceGlobalSecureRequests = true
+
+app.baseURL = 'https://110.100.111.5'
 app.forceGlobalSecureRequests = true
 
 
-# app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
 # app.sessionCookieName = 'ci_session'
@@ -59,17 +63,17 @@ app.forceGlobalSecureRequests = true
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
+database.default.hostname = 110.100.111.5
+database.default.database = softent_db
+database.default.username = root
+database.default.password = peteradam
+database.default.DBDriver = MySQLi
 
-# database.tests.hostname = localhost
-# database.tests.database = ci4
-# database.tests.username = root
-# database.tests.password = root
-# database.tests.DBDriver = MySQLi
+database.tests.hostname = 110.100.111.5
+database.tests.database = softent_db
+database.tests.username = root
+database.tests.password = peteradam
+database.tests.DBDriver = MySQLi
 
 #--------------------------------------------------------------------
 # CONTENT SECURITY POLICY

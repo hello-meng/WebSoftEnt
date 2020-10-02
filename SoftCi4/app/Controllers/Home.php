@@ -13,11 +13,6 @@ class Home extends BaseController
 		$data['title'] = "about";
 		return view('home/about',$data);
 	}
-	
-	public function contact()
-	{
-		$data['title'] = "contact";
-		return view('home/contact',$data);
-    }
+		
 
 }
