@@ -19,18 +19,22 @@
                         <h2>Contact Us</h2>
                         <p>Your email address will not be published. Required fields are marked.</p>
                     </div>
-                    <form action="#">
+                    <form action="/contactus" method="post">
                         <div class="input__item">
                             <p>Name:</p>
-                            <input type="text">
+                            <input type="text" name='name'>
                         </div>
                         <div class="input__item">
                             <p>Email:</p>
-                            <input type="text">
+                            <input type="text" name='email'>
                         </div>
+                        <!-- <div class="input__item">
+                            <p>subject:</p>
+                            <input type="text" name='subject'>
+                        </div> -->
                         <div class="input__item">
                             <p>Message:</p>
-                            <textarea></textarea>
+                            <textarea name='message'></textarea>
                         </div>
                         <button type="submit" class="site-btn">Submit Form</button>
                     </form>

@@ -89,7 +89,7 @@
                             <a class="dropdown-item" href="<?= site_url('software/buffet') ?>"><span class="head__fn__item">โปรแกรม Buffet & A la carte</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/restaurant') ?>"><span class="head__fn__item">โปรแกรม Restaurant Bistro ,Coffee Shop</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/qsr') ?>"><span class="head__fn__item">โปรแกรม Quick Service Restaurant (QSR)</span></a>
-                            <!-- <a class="dropdown-item" href="<?= site_url('software/foodzone') ?>"><span class="head__fn__item">โปรแกรม Shop Zone ,Food Zone</span></a> -->                            
+                            <a class="dropdown-item" href="<?= site_url('software/foodzone') ?>"><span class="head__fn__item">โปรแกรม Shop Zone ,Food Zone</span></a>                            
                             <a class="dropdown-item" href="<?= site_url('software/onepos') ?>"><span class="head__fn__item">โปรแกรม 1 Pos</span></a>
                             <!-- <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรมร้าน Jewelry</span></a> -->
                             <a class="dropdown-item" href="<?= site_url('software/mediumshop') ?>"><span class="head__fn__item">โปรแกรมร้าน Shop, Minimart</span></a>                            

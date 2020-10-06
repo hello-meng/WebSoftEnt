@@ -8,12 +8,54 @@ class ContactUs extends BaseController
 {
 	public function index()
 	{
-		$data['title'] = "Contact Us";
+		//$data['title'] = "Contact Us";
 
 		//$this->saveContactUs();
 		//$this->sendEmail();
 
-		return view('home/contact',$data);
+		//return view('home/contact',$data);
+
+
+		//$data['title'] = "Contact Us";
+		$contactModel = new ContactModel();
+		if ($this->request->getMethod() === 'post')
+		{
+			$validation =  \Config\Services::validation();
+			$validation->setRules([
+				'title' => "Contact Us",
+				'name' => 'trim|required',
+				'email' => 'trim|required|valid_email'
+			]);
+			
+			if ($validation)
+			{
+				return view('home/contact',$validation);
+			}
+			else
+			{
+				$data2 = [
+					'title' => "Contact Us",
+					//'name' => "test mail6",
+					//'email' =>"helo@gamil.com6",
+					//'subject' => "test subject6",
+					//'message' => "massameha oslaoltolallshas6"	
+					'name' => $this->request->getPost('name'),
+					'email' => $this->request->getPost('email'),
+					//'subject' => $this->request->getPost('subject'),
+					'subject' => "Customer send message. Email",
+					'message' => $this->request->getPost('message'),				
+				];
+				$contactModel->insert($data2);
+
+				return view('home/success',$data2);
+			}
+		}
+		else
+		{
+			$data['title'] = "Contact Us";
+			return view('home/contact',$data);
+		}
+
 	}
 
 	private function saveContactUs()
@@ -24,13 +66,14 @@ class ContactUs extends BaseController
 			'subject'=>"test subject5",
 			'message'=>"massameha oslaoltolallshas5"
 		];
+
+		//old
 		// $db = \Config\Database::connect();
 		// $builder = $db->table('contactus');
 		// $builder->insert($data);
 
 		$contactModel = new ContactModel();
 		$contactModel->insert($data);
-
 	}
 	
 	private function sendEmail() 
