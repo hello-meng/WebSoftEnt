@@ -12,7 +12,7 @@
                         <!--<img src="../img/blog/details/blog-author.png" alt="">-->
                         <p> </p>
                     </div>
-                    <h2>โปรแกรมสำหรับร้านค่าย่อย<br /> </h2>
+                    <h2>โปรแกรมสำหรับร้านค้าย่อย<br /> </h2>
                 </div>
                 <div class="blog__details__pic">
                     <img src="<?= base_url('img/products/jewelry/smallshop.jpg'); ?>" alt="">

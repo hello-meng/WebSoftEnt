@@ -45,13 +45,16 @@
                         <ul>
                             <li>มีระบบการขายสินค้าด้วย Barcode,QR Code</li>
                             <div class="blog__details__pic">
-                                <img src="<?= base_url('img/products/jewelry/3.jpg'); ?>" alt="">
+                                <img src="<?= base_url('img/products/1pos/barcode.jpg'); ?>" alt="">
                             </div>
                             <li>รองรับการชำระเงินหลายประเภท เงินสด บัตรเครดิต</li>
                             <div class="blog__details__pic">
                                 <img src="<?= base_url('img/products/jewelry/4-7.jpg'); ?>" alt="">
                             </div>
-                          
+                            <li>พิมพ์ใบเสร็จรับเงิน/ใบกำกับภาษี</li>
+                            <div class="blog__details__pic">
+                                <img src="<?= base_url('img/products/1pos/slip.jpg'); ?>" alt="">
+                            </div>
                         </ul>
                     </p>
                    

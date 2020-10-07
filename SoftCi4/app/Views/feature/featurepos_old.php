@@ -168,6 +168,126 @@
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
 							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1"><b>3.การรับประกันสินค้า</b></td>
+								<td class="column100 column2" data-column="column2"></td>
+								<td class="column100 column3" data-column="column3"></td>
+								<td class="column100 column4" data-column="column4"></td>
+								<td class="column100 column5" data-column="column5"></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-พิมพ์ใบรับประกัน ใบการันตี (มีรูปภาพสินค้า)</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-อัพโหลดข้อมูลการรับประกันขึ้นเว็บไซต์ (www) ตรวจสอบการประกันผ่านระบบออนไลน์ด้วย QR Code (Mobile/Tablet)</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1"><b>4.VAT Refund For Tourists</b></td>
+								<td class="column100 column2" data-column="column2"></td>
+								<td class="column100 column3" data-column="column3"></td>
+								<td class="column100 column4" data-column="column4"></td>
+								<td class="column100 column5" data-column="column5"></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลของลูกค้าและพิมพ์เอกสารการขอคืนภาษี ภพ.10</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1"><b>5.ค่าคอมมิชชั่นพนักงานขาย</b></td>
+								<td class="column100 column2" data-column="column2"></td>
+								<td class="column100 column3" data-column="column3"></td>
+								<td class="column100 column4" data-column="column4"></td>
+								<td class="column100 column5" data-column="column5"></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-คำนวณค่าคอมมิชชั่นพนักงานขาย</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1"><b>6.คำนวณและจ่ายค่าการตลาด/ค่านายหน้า</b></td>
+								<td class="column100 column2" data-column="column2"></td>
+								<td class="column100 column3" data-column="column3"></td>
+								<td class="column100 column4" data-column="column4"></td>
+								<td class="column100 column5" data-column="column5"></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลของคู่ค้า สมาชิก บันทึกรูปภาพและพิมพ์บัตรสามาชิก (บริษัททัวร์,ไกด์,หัวหน้าทัวร์,คนขับรถ)</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลเงื่อนไขค่าการตลาด/ค่านายหน้าของสมาชิก</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลการเข้าใช้บริการของลูกค้า แต่ละกรุ๊ปทัวร์</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลลูกค้า Namelist</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลชนชาติ ประเทศของลูกค้า</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลทะเบียนรถ และเวลาการเข้าใช้บริการ</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-คำนวณค่าการตลาด/ค่านายหน้าสำหรับสามาชิก (บริษัททัวร์,ไกด์,หัวหน้าทัวร์,คนขับรถ)</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-ควบคุมการจ่ายค่าการตลาด/ค่านายหน้า</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-จัดทำเอกสาร หนังสือรับรองการหักภาษี ณ ที่จ่าย คู่ค้า บริษัททัวร์ สมาชิก</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
+							</tr>
 						</tbody>
 					</table>
 				</div>

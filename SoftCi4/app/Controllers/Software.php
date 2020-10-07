@@ -53,8 +53,8 @@ class Software extends BaseController
 	
 	public function dutyfree()
 	{
-		$data['title'] = "Dury Free / Jewelry / Tour shop";
-		return view('software/dutyfree',$data);
+		$data['title'] = "Jewelry / Tour shop";
+		return view('software/jewelry',$data);
     }
     
     public function mediumshop()

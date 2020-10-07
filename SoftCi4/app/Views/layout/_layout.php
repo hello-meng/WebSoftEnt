@@ -16,7 +16,8 @@
     <title><?= $title ?> - <?= $companyName1 ?></title>
 
     <!-- Favicon -->
-    <link rel="icon" href="<?= base_url('img/Logo_SoftEnterprises.gif'); ?>" type="image/gif">
+    <link rel="icon" type="image/gif" href="<?= base_url('img/Logo_SoftEnterprises.gif'); ?>">
+    <!-- <link rel="shortcut icon" type="image/png" href="<?= base_url('img/Logo_Icon_SoftEnt.ico'); ?>"> -->
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&display=swap"
@@ -42,6 +43,13 @@
     <link rel="stylesheet" href="<?= site_url('') ?>/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="<?= site_url('') ?>/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="<?= site_url('') ?>/css/style.css" type="text/css">
+
+    <!-- Day-->    
+    <link rel="stylesheet" href="<?= site_url('') ?>/css/main-table.css" type="text/css">
+    <!-- <link rel="stylesheet" href="<?= site_url('') ?>/css/util.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?= site_url('') ?>/vendor/perfect-scrollbar/perfect-scrollbar.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?= site_url('') ?>/vendor/select2/select2.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?= site_url('') ?>/vendor/animate/animate.css"> -->
 
 </head>
 <body>
@@ -82,7 +90,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('home') ?>"><span class="head__fn">Home</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= site_url('home/about') ?>"><span class="head__fn">About</span></a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('home/about') ?>"><span class="head__fn">About</span></a></li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Software</span></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
@@ -92,9 +100,9 @@
                             <a class="dropdown-item" href="<?= site_url('software/foodzone') ?>"><span class="head__fn__item">โปรแกรม Shop Zone ,Food Zone</span></a>                            
                             <a class="dropdown-item" href="<?= site_url('software/onepos') ?>"><span class="head__fn__item">โปรแกรม 1 Pos</span></a>
                             <!-- <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรมร้าน Jewelry</span></a> -->
-                            <a class="dropdown-item" href="<?= site_url('software/mediumshop') ?>"><span class="head__fn__item">โปรแกรมร้าน Shop, Minimart</span></a>                            
+                            <a class="dropdown-item" href="<?= site_url('software/mediumshop') ?>"><span class="head__fn__item">โปรแกรม Small shop, Minimart</span></a>                            
                             <a class="dropdown-item" href="<?= site_url('software/departmentstore') ?>"><span class="head__fn__item">โปรแกรม Department Store</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/dutyfree') ?>"><span class="head__fn__item">Duty free / Jewelry / Tour shop</span></a>
+                            <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรม Jewelry / Tour shop</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/rent') ?>"><span class="head__fn__item">โปรแกรมระบบเช่า</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/carservices') ?>"><span class="head__fn__item">โปรแกรมอู่ซ่อมรถ</span></a>
                             <!-- <a class="dropdown-item" href="<?= site_url('software/booking') ?>"><span class="head__fn__item">โปรแกรมจัดการจองจัดยานพาหนะ</span></a> -->
@@ -102,11 +110,26 @@
                             <!-- <a class="dropdown-item" href="<?= site_url('software/consultation') ?>"><span class="head__fn__item">รับปรึกษาและพัฒนาโปรแกรมตามความต้องการ</span></a> -->
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="<?= site_url('feature') ?>"><span class="head__fn">Feature</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= site_url('pricing') ?>"><span class="head__fn">Price</span></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Feature/Price</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                            <a class="dropdown-item" href="<?= site_url('feature/featurepos') ?>"><span class="head__fn__item">ตารางเปรียบเทียบ Point of sale (POS)</span></a>
+                            <a class="dropdown-item" href="<?= site_url('feature/featurerest') ?>"><span class="head__fn__item">ตารางเปรียบเทียบร้านอาหาร</span></a>
+                            <a class="dropdown-item" href="<?= site_url('feature/price') ?>"><span class="head__fn__item">Price/Promotion</span></a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('feature') ?>"><span class="head__fn">Feature</span></a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('pricing/price') ?>"><span class="head__fn">Price/Promotion</span></a></li> -->
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('network') ?>"><span class="head__fn">Network</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('hardware') ?>"><span class="head__fn">Hardware</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= site_url('contactus') ?>"><span class="head__fn">Contact</span></a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('contact') ?>"><span class="head__fn">Contact</span></a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Pages</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                            <a class="dropdown-item" href="<?= site_url('home/about') ?>"><span class="head__fn__item">About us</span></a>
+                            <a class="dropdown-item" href="<?= site_url('contact') ?>"><span class="head__fn__item">Contact us</span></a>
+                        </div>
+                    </li>                   
                 </ul>
             </div>
         </div>

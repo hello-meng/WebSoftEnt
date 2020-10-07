@@ -19,7 +19,7 @@
                         <h2>Contact Us</h2>
                         <p>Your email address will not be published. Required fields are marked.</p>
                     </div>
-                    <form action="/contactus" method="post">
+                    <form action="<?= site_url('contact') ?>" method="post">
                         <div class="input__item">
                             <p>Name:</p>
                             <input type="text" name='name'>

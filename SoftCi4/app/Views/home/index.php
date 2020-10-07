@@ -9,7 +9,7 @@
             <div class="col-lg-12">
                 <div class="hero__text">
                     <h2>
-                        <span>Welcome To</span>
+                        <span>Welcome to</span>
                         Soft Enterprises
                     </h2>
                     <p>ยินดีบริการ โปรแกรมชั้นยอด และบริการอันยอดเยี่ยม</p>
@@ -82,36 +82,36 @@
             <!-- @*----------------Row 3 ---------------*@ -->
             <div class="col-lg-3 p-0 order-lg-1 col-md-6 order-md-1">
                 <div class="services__text">
-                    <a href="<?= site_url('software/jewelry') ?>"><h4>โปรแกรมร้าน Jewelry</h4></a>
-                    <a href="<?= site_url('software/jewelry') ?>"><p>รองรับร้านจิวเวลรี่ขนาดใหญ่ กลาง เล็ก ระบบการขายพร้อมใบ Certificate,รูป,คอมมิชชั่น,Vat Refund</p></a>
+                    <a href="<?= site_url('software/mediumshop') ?>"><h4>โปรแกรมร้านค้า Small shop, Minimart</h4></a>
+                    <a href="<?= site_url('software/mediumshop') ?>"><p>เหมาะสำหรับร้านค้าขนาดเล็ก กลาง ,มินิมาร์ท, Gift shop</p></a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-2 col-md-6 order-md-2">
                 <div class="services__pic">
-                    <a href="<?= site_url('software/jewelry') ?>"><img src="<?= base_url('img/services/jewelry.jpg'); ?>" alt=""></a>
+                    <a href="<?= site_url('software/mediumshop') ?>"><img src="<?= base_url('img/services/mediumshop.jpg'); ?>" alt=""></a>                    
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-4">
                 <div class="services__text">
-                    <a href="<?= site_url('software/mediumshop') ?>"><h4>โปรแกรมร้านค้า Shop</h4></a>
-                    <a href="<?= site_url('software/mediumshop') ?>"><p>เหมาะสำหรับร้านค้าขนาดเล็ก กลาง ,มินิมาร์ท, Gift shop</p></a>
+                    <a href="<?= site_url('software/departmentstore') ?>"><h4>โปรแกรม Department Store</h4></a>
+                    <a href="<?= site_url('software/departmentstore') ?>"><p>เหมาะสำหรับร้านค้าขนาดใหญ่ รองรับการพิมพ์ Barcode, รองรับออกใบกำกับภาษี สินค้าโปรโมชั่น, Vat refund</p></a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
                 <div class="services__pic">
-                    <a href="<?= site_url('software/mediumshop') ?>"><img src="<?= base_url('img/services/mediumshop.jpg'); ?>" alt=""></a>
+                    <a href="<?= site_url('software/departmentstore') ?>"><img src="<?= base_url('img/services/largeshop.jpg'); ?>" alt=""></a>
                 </div>
             </div>
             <!-- @*----------------Row 4 ---------------*@ -->
             <div class="col-lg-3 p-0 order-lg-6 col-md-6 order-md-5">
                 <div class="services__text">
-                    <a href="<?= site_url('software/largeshop') ?>"><h4>โปรแกรม Department Store</h4></a>
-                    <a href="<?= site_url('software/largeshop') ?>"><p>เหมาะสำหรับร้านค้าขนาดใหญ่ รองรับการพิมพ์ Barcode, รองรับออกใบกำกับภาษี สินค้าโปรโมชั่น, Vat refund</p></a>
+                    <a href="<?= site_url('software/jewelry') ?>"><h4>โปรแกรมร้าน Jewelry / Tour shop</h4></a>
+                    <a href="<?= site_url('software/jewelry') ?>"><p>รองรับร้านจิวเวลรี่ขนาดใหญ่ กลาง เล็ก ระบบการขายพร้อมใบ Certificate,รูป,คอมมิชชั่น,Vat Refund</p></a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-5 col-md-6 order-md-6">
                 <div class="services__pic">
-                    <a href="<?= site_url('software/largeshop') ?>"><img src="<?= base_url('img/services/largeshop.jpg'); ?>" alt=""></a>
+                    <a href="<?= site_url('software/jewelry') ?>"><img src="<?= base_url('img/services/jewelry.jpg'); ?>" alt=""></a>                    
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-8">
