@@ -15,6 +15,17 @@
     }
 }
 
+.breadcrumb__text__cc {
+
+    h3 {
+        margin-top: 40px;
+        font-size: 28px;
+        color: $white-color;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+}
+
 .breadcrumb__links {
 
     a {
@@ -34,8 +45,9 @@
     }
 
     span {
-        font-size: 17px;
-        color: #b4b4b4;
+        font-size: 20px;
+        //color: #b4b4b4;
+        color: $white-color;
         display: inline-block;
     }
 }

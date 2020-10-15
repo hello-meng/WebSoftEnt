@@ -62,6 +62,7 @@ class Contact extends BaseController
 				'message' => $this->request->getPost('message'),				
 			];
 			$contactModel->insert($data2);
+			//$this->sendEmail($data2);
 
 			return view('home/success',$data2);
 
@@ -152,7 +153,7 @@ class Contact extends BaseController
 			if ($email->send()) 
 			{
 				//echo "success";
-				return view('home/success',$data2);
+				return view('home/success2',$data2);
 			} else {
 				echo "invalid";
 				$data = $email->printDebugger([headers]);
@@ -170,7 +171,7 @@ class Contact extends BaseController
 
 	}
 	
-	private function sendEmail(string $email) 
+	private function sendEmail($databbb) 
 	{
 		//ต้องไปเปิด https://myaccount.google.com/security
 		//ไปที่ Security(ความปลอดภัย) 
@@ -190,14 +191,15 @@ class Contact extends BaseController
 		//$email->setMessage('Testing the email class.');
 		$email->setMessage('<h1>Test Email</h1><p>testing email message</p>');
 
+
 		//$email->send();
 		if ($email->send()) 
 		{
 			echo "success";
 		} else {
 			echo "invalid";
-			$data = $email->printDebugger([headers]);
-			print_r($data);
+			//$data = $email->printDebugger([headers]);
+			//print_r($data);
 		}
 
 	}

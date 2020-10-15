@@ -9,7 +9,7 @@
             <div class="col-lg-12">
                 <div class="blog__details__title">
                     <div class="blog__details__author"></div>
-                    <h2>โปรแกรมสำหรับร้านแบบ Quick service restaurant<br /></h2>
+                    <h2>โปรแกรมสำหรับร้านแบบ Quick Service Restaurant<br /></h2>
                 </div>
             </div>
         </div>
@@ -26,8 +26,8 @@
                         <ul>
                             <li>ระบบใช้งานง่ายรองรับกับการใช้งานแบบทัชสกรีนและจอธรรมดา</li>
                             <li>รองรับโปรโมชั่น คูปองส่วนลด เพื่อดึงดูดลูกค้า</li>
-                            <li>รองรับการพิมพ์รายการอาหารออกปริ้นเตอร์ หรือแสดงรายการอาหารบนจอแสดงผลในห้องครัวตามที่ต้องการได้</li>
-                            <li>พิมพ์ใบกำกับภาษีและใบเสร็จรับเงินได้</li>
+                            <li>รองรับการพิมพ์รายการอาหารออกปริ้นเตอร์</li>
+                            <li>พิมพ์ใบเสร็จรับเงินได้</li>
                         </ul>
                     </p>
                     <p>
@@ -50,12 +50,6 @@
                     </p>
                     <div class="blog__details__pic">
                         <img src="<?= base_url('img/products/qsr/picture3.jpg'); ?>" alt="">
-                    </div>
-                    <p>
-                        หน้าจอแสดงเมนูอาหารในครัว
-                    </p>
-                    <div class="blog__details__pic">
-                        <img src="<?= base_url('img/products/qsr/picture4.jpg'); ?>" alt="">
                     </div>
                     <p>
                         พิมพ์บิลสำหรับเสิร์ฟอาหารตามคิว

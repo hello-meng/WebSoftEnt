@@ -16,8 +16,8 @@
     <title><?= $title ?> - <?= $companyName1 ?></title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/gif" href="<?= base_url('img/Logo_SoftEnterprises.gif'); ?>">
-    <!-- <link rel="shortcut icon" type="image/png" href="<?= base_url('img/Logo_Icon_SoftEnt.ico'); ?>"> -->
+    <link rel="icon" type="image/gif" href="<?= base_url('img/logo_softenterprises.gif'); ?>">
+    <!-- <link rel="shortcut icon" type="image/png" href="<?= base_url('img/logo_softenterprises.ico'); ?>"> -->
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800;900&display=swap"
@@ -99,15 +99,14 @@
                             <a class="dropdown-item" href="<?= site_url('software/qsr') ?>"><span class="head__fn__item">โปรแกรม Quick Service Restaurant (QSR)</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/foodzone') ?>"><span class="head__fn__item">โปรแกรม Shop Zone ,Food Zone</span></a>                            
                             <a class="dropdown-item" href="<?= site_url('software/onepos') ?>"><span class="head__fn__item">โปรแกรม 1 Pos</span></a>
-                            <!-- <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรมร้าน Jewelry</span></a> -->
                             <a class="dropdown-item" href="<?= site_url('software/mediumshop') ?>"><span class="head__fn__item">โปรแกรม Small shop, Minimart</span></a>                            
                             <a class="dropdown-item" href="<?= site_url('software/departmentstore') ?>"><span class="head__fn__item">โปรแกรม Department Store</span></a>
-                            <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรม Jewelry / Tour shop</span></a>
+                            <a class="dropdown-item" href="<?= site_url('software/jewelry') ?>"><span class="head__fn__item">โปรแกรม Tour shop / Jewelry</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/rent') ?>"><span class="head__fn__item">โปรแกรมระบบเช่า</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/carservices') ?>"><span class="head__fn__item">โปรแกรมอู่ซ่อมรถ</span></a>
-                            <!-- <a class="dropdown-item" href="<?= site_url('software/booking') ?>"><span class="head__fn__item">โปรแกรมจัดการจองจัดยานพาหนะ</span></a> -->
+                            <a class="dropdown-item" href="<?= site_url('software/booking') ?>"><span class="head__fn__item">โปรแกรมจัดการจองจัดยานพาหนะ</span></a>
                             <a class="dropdown-item" href="<?= site_url('software/sop') ?>"><span class="head__fn__item">S&OP และ S&OP Commission</span></a>
-                            <!-- <a class="dropdown-item" href="<?= site_url('software/consultation') ?>"><span class="head__fn__item">รับปรึกษาและพัฒนาโปรแกรมตามความต้องการ</span></a> -->
+                            <a class="dropdown-item" href="<?= site_url('software/consultation') ?>"><span class="head__fn__item">รับปรึกษาและพัฒนาโปรแกรมตามความต้องการ</span></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -123,6 +122,13 @@
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('network') ?>"><span class="head__fn">Network</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('hardware') ?>"><span class="head__fn">Hardware</span></a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('contact') ?>"><span class="head__fn">Contact</span></a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Documents</span></a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                            <a class="dropdown-item" href="<?= site_url('documents') ?>"><span class="head__fn__item">Documents</span></a>
+                            <a class="dropdown-item" href="<?= site_url('documents/download') ?>"><span class="head__fn__item">Download</span></a>
+                        </div>
+                    </li>                       
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Pages</span></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
@@ -171,7 +177,7 @@
                             <div class="footer__logo">
                                 <a class="footer__logo__brand" href="<?= site_url('home') ?>"><?= $companyName1 ?></a>
                             </div>
-                            <a href="#" class="primary-btn"><span class="icon_phone"></span> ติดต่อเรา</a>
+                            <a href="<?= site_url('contact') ?>" class="primary-btn"><span class="icon_phone"></span> ติดต่อเรา</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">

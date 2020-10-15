@@ -17,8 +17,8 @@
                         <thead>
 							<tr class="row100 head">
 								<th class="column100 column1" data-column="column1"></th>
-								<th class="column100 column2" data-column="column2"><center>Quick Service</center></th>
-								<th class="column100 column3" data-column="column3"><center>Restaurant</center></th>
+								<th class="column100 column2" data-column="column2"><center>Restaurant</center></th>
+								<th class="column100 column3" data-column="column3"><center>Quick Service</center></th>
 								<th class="column100 column4" data-column="column4"><center>Buffet/A la carte</center></th>
 							</tr>
 						</thead>
@@ -49,23 +49,23 @@
 							</tr>
                             <tr class="row100">
 								<td class="column100 column1" data-column="column1">-กำหนดจำนวนและชื่อโต๊ะ</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
 								<td class="column100 column1" data-column="column1">-จัดการสถานะของโต๊ะอาหารภายในร้าน</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
 								<td class="column100 column1" data-column="column1">-ระบบคิวในการรับอาหาร</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
-								<td class="column100 column3" data-column="column3"><center></center></td>
-								<td class="column100 column4" data-column="column4"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>3.จัดการราคา</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
@@ -89,8 +89,8 @@
 								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1"><b>4.จัดการเวลา</b></td>
+                            <tr class="row100">
+								<td class="column100 column1" data-column="column1"><b>4.จัดการเวลาดการราคา</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
@@ -113,7 +113,7 @@
 								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>5.ระบบจัดการออเดอร์</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
@@ -126,26 +126,14 @@
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-ส่งออเดอร์เข้าห้องครัวจุดเดียว</td>
+								<td class="column100 column1" data-column="column1">-ส่งออเดอร์เข้าห้องครัวและบาร์น้ำได้อย่างรวดเร็ว</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-ส่งออเดอร์เข้าหลายจุด (ครัว,บาร์น้ำ)</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
-								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
-							</tr>
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">-สั่งออเดอร์ผ่านคอมพิวเตอร์/ทัชสกรีน</td>
+								<td class="column100 column1" data-column="column1">-สั่งผ่านมือถือ แท็บเล็ต ทัชสกรีน</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
-								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
-							</tr>
-                            <tr class="row100">
-								<td class="column100 column1" data-column="column1">-สั่งออเดอร์ผ่านโทรศัพท์มือถือ/แท็บเล็ต</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
@@ -155,37 +143,31 @@
 								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>6.ระบบการจัดการออเดอร์ในครัว</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-พิมพ์แยกรายการไปจุดเดียว</td>
+								<td class="column100 column1" data-column="column1">-พิมพ์รายการอาหารไปครัว รายการเครื่องดื่มไปที่บาร์น้ำ</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-พิมพ์แยกรายการอาหารได้หลายจุด (ครัว บาร์น้ำ)</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column1" data-column="column1">-จอแสดงรายการอาหารตามเวลาการสั่งให้พ่อครัวทำอาหารได้อย่างถูกต้อง และรวดเร็ว</td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-จอแสดงรายการอาหารตามเวลาการสั่งให้พ่อครัวทำอาหารได้อย่างถูกต้อง และรวดเร็ว</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
-								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
-							</tr>
-							<tr class="row100">
 								<td class="column100 column1" data-column="column1">-พิมพ์ใบออเดอร์สำหรับเสิร์ฟอาหารให้พนักงานได้</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>7.ระบบชำระเงิน</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
@@ -204,36 +186,18 @@
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-พิมพ์ใบเสร็จรับเงิน</td>
-								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
-								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
-							</tr>
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">-พิมพ์ใบกำกับภาษีอย่างย่อ</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
-								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
-							</tr>
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">-พิมพ์ใบกำกับภาษีแบบเต็ม</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
-								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
-								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
-							</tr>
-                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-จัดการสถานะการจ่ายบิล คืนเงิน และพิมพ์ใบเสร็จซ้ำ</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-เพิ่มโลโก้และข้อความท้ายบิล</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>8.ระบบรายงานการขาย</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
@@ -245,76 +209,72 @@
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>9.ระบบจัดการสินค้าคงคลัง</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-ตัดสต๊อกเป็นชุด</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-ผลิตสินค้ารอขายจากวัตถุดิบ</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>10.ระบบจัดการพนักงาน</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-สร้างบัญชีพนักงานได้หลายบัญชี</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-เพิ่ม ลด พนักงานได้</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>11.ระบบสะสมแต้ม และระบบบัตรกำนัล (Gift Card)</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-ระบบสะสมแต้ม</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-ระบบบัตรกำนัล (Gift Card)</td>
-								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1"><b>12.ระบบฐานข้อมูล</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
 							</tr>
-							<tr class="row100">
+                            <tr class="row100">
 								<td class="column100 column1" data-column="column1">-Offline (Local Server)</td>
 								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 							</tr>
-
-
-
-
 						</tbody>
 					</table>
 				</div>

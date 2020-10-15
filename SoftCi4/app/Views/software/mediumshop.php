@@ -56,7 +56,10 @@
                             <div class="blog__details__pic">
                                 <img src="<?= base_url('img/products/jewelry/4-7.jpg'); ?>" alt="">
                             </div>
-                          
+                            <li>พิมพ์ใบเสร็จรับเงิน/ใบกำกับภาษี</li>
+                            <div class="blog__details__pic">
+                                <img src="<?= base_url('img/products/1pos/slip.jpg'); ?>" alt="">
+                            </div>
                         </ul>
                     </p>
                    

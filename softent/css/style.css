@@ -933,6 +933,14 @@ ol {
   margin-bottom: 10px;
 }
 
+.breadcrumb__text__cc h3 {
+  margin-top: 40px;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .breadcrumb__links a {
   font-size: 17px;
   color: #ffffff;
@@ -950,8 +958,8 @@ ol {
 }
 
 .breadcrumb__links span {
-  font-size: 17px;
-  color: #b4b4b4;
+  font-size: 20px;
+  color: #ffffff;
   display: inline-block;
 }
 
@@ -2309,6 +2317,16 @@ ol {
 }
 
 .blog__details__comment h4 {
+  text-align: center;
+  font-size: 30px;
+  color: #353535;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.blog__details__comment h5 {
+  text-align: center;
+  font-size: 20px;
   color: #353535;
   font-weight: 700;
   margin-bottom: 30px;

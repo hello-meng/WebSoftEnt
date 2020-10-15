@@ -2,23 +2,24 @@
 
 <?= $this->section('content') ?> 
 
-<!-- Blog Details Section Begin -->
-<section class="blog-details spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="blog__details__title">
-                    <h2>Booking</h2>
-                </div>
-                <div class="blog__details__pic">
-                    <img src="<?= base_url('img/blog/details/blog-details.jpg'); ?>" alt="">
+    <!-- Breadcrumb Section Begin -->
+    <div class="breadcrumb-option spad set-bg" data-setbg="<?= base_url('img/document-bg.jpg'); ?>">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>โปรแกรมจัดการจอง/จัด ยานพาหนะ</h2>
+                        <div class="breadcrumb__links">
+                            <span>เหมาะสำหรับบริษัทรับจองยานพาหนะทุกประเภท พร้อมพนักงานขับ</span>
+                        </div>
+                    </div>
+                    <div class="breadcrumb__text__cc">
+                        <h3>สนใจติดต่อสอบถามรายละเอียดของโปรแกรม</h3>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
-</section>
-<!-- Blog Details Section End -->
-
+    <!-- Breadcrumb Section End -->
 
 <?= $this->endSection() ?> 

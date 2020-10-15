@@ -18,7 +18,7 @@
 								<th class="column100 column2" data-column="column2"><center>1 POS</center></th>
 								<th class="column100 column3" data-column="column3"><center>Small shop</center></th>
 								<th class="column100 column4" data-column="column4"><center>Department Store</center></th>
-								<th class="column100 column5" data-column="column5"><center>Jewelry/Tour Shop</center></th>
+								<th class="column100 column5" data-column="column5"><center>Tour Shop/Jewelry</center></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -74,12 +74,40 @@
                             <tr class="row100">
 								<td class="column100 column1" data-column="column1">-รับชำระเงินเชื่อ</td>
 								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-พิมพ์ใบเสร็จรับเงิน</td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
 								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
 								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>
 							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-พิมพ์ใบกำกับภาษีอย่างย่อ</td>
+								<td class="column100 column2" data-column="column2"><center>&#10004</center></td>
+								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-พิมพ์ใบกำกับภาษีแบบเต็ม</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center>&#10004</center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>
+							</tr>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">-เคาน์เตอร์สำหรับออกใบกำกับภาษีแบบเต็ม</td>
+								<td class="column100 column2" data-column="column2"><center></center></td>
+								<td class="column100 column3" data-column="column3"><center></center></td>
+								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
+								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>
+							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1"><b>2.จัดการข้อมูลสินค้าและระบบสต็อกสินค้า</b></td>
+								<td class="column100 column1" data-column="column1"><b>2.จัดการข้อมูลสินค้าและระบบสต๊อกสินค้า</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
@@ -121,7 +149,7 @@
 								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1">-ใบรับประกันสินค้าจากองค์การภายนอก</td>
+								<td class="column100 column1" data-column="column1">-ใบรับประกันสินค้าจากองค์กรภายนอก</td>
 								<td class="column100 column2" data-column="column2"><center></center></td>
 								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center>&#10004</center></td>
@@ -212,7 +240,7 @@
 								<td class="column100 column5" data-column="column5"></td>
 							</tr>
 							<tr class="row100">
-								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลของคู่ค้า สมาชิก บันทึกรูปภาพและพิมพ์บัตรสามาชิก (บริษัททัวร์,ไกด์,หัวหน้าทัวร์,คนขับรถ)</td>
+								<td class="column100 column1" data-column="column1">-บันทึกข้อมูลของคู่ค้า สมาชิก บันทึกรูปภาพและพิมพ์บัตรสมาชิก (บริษัททัวร์,ไกด์,หัวหน้าทัวร์,คนขับรถ)</td>
 								<td class="column100 column2" data-column="column2"><center></center></td>
 								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center></center></td>
@@ -255,7 +283,7 @@
 								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>                                
 							</tr>
 							<tr class="row100">
-								<td class="column100 column1" data-column="column1">-คำนวณค่าการตลาด/ค่านายหน้าสำหรับสามาชิก (บริษัททัวร์,ไกด์,หัวหน้าทัวร์,คนขับรถ)</td>
+								<td class="column100 column1" data-column="column1">-คำนวณค่าการตลาด/ค่านายหน้าสำหรับสมาชิก (บริษัททัวร์,ไกด์,หัวหน้าทัวร์,คนขับรถ)</td>
 								<td class="column100 column2" data-column="column2"><center></center></td>
 								<td class="column100 column3" data-column="column3"><center></center></td>
 								<td class="column100 column4" data-column="column4"><center></center></td>

@@ -105,7 +105,7 @@
             <!-- @*----------------Row 4 ---------------*@ -->
             <div class="col-lg-3 p-0 order-lg-6 col-md-6 order-md-5">
                 <div class="services__text">
-                    <a href="<?= site_url('software/jewelry') ?>"><h4>โปรแกรมร้าน Jewelry / Tour shop</h4></a>
+                    <a href="<?= site_url('software/jewelry') ?>"><h4>โปรแกรมร้าน Tour shop / Jewelry </h4></a>
                     <a href="<?= site_url('software/jewelry') ?>"><p>รองรับร้านจิวเวลรี่ขนาดใหญ่ กลาง เล็ก ระบบการขายพร้อมใบ Certificate,รูป,คอมมิชชั่น,Vat Refund</p></a>
                 </div>
             </div>
@@ -131,7 +131,7 @@
             <div class="col-lg-3 p-0 order-lg-1 col-md-6 order-md-1">
                 <div class="services__text">
                     <a href="<?= site_url('software/carservices') ?>"><h4>โปรแกรมอู่ซ่อมรถ</h4></a>
-                    <a href="<?= site_url('software/carservices') ?>"><p>ควบคุมการซ่อมนอกและใน การเบิกใช้อะไหล่ การคิดต้นทนซ่อมและงานระหว่างซ่อม</p></a>
+                    <a href="<?= site_url('software/carservices') ?>"><p>ควบคุมการซ่อมนอกและใน การเบิกใช้อะไหล่ การคิดต้นทุนซ่อมและงานระหว่างซ่อม</p></a>
                 </div>
             </div>
             <div class="col-lg-3 p-0 order-lg-2 col-md-6 order-md-2">

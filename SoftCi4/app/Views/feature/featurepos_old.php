@@ -92,7 +92,7 @@
 								<td class="column100 column5" data-column="column5"><center>&#10004</center></td>
 							</tr>
                             <tr class="row100">
-								<td class="column100 column1" data-column="column1"><b>2.จัดการข้อมูลสินค้าและระบบสต็อกสินค้า</b></td>
+								<td class="column100 column1" data-column="column1"><b>2.จัดการข้อมูลสินค้าและระบบสต๊อกสินค้า</b></td>
 								<td class="column100 column2" data-column="column2"></td>
 								<td class="column100 column3" data-column="column3"></td>
 								<td class="column100 column4" data-column="column4"></td>
