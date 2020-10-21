@@ -123,10 +123,10 @@
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('hardware') ?>"><span class="head__fn">Hardware</span></a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="<?= site_url('contact') ?>"><span class="head__fn">Contact</span></a></li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Documents</span></a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="head__fn">Download</span></a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                            <a class="dropdown-item" href="<?= site_url('documents') ?>"><span class="head__fn__item">Documents</span></a>
-                            <a class="dropdown-item" href="<?= site_url('documents/download') ?>"><span class="head__fn__item">Download</span></a>
+                            <a class="dropdown-item" href="<?= site_url('downloads/document') ?>"><span class="head__fn__item">Documents</span></a>
+                            <a class="dropdown-item" href="<?= site_url('downloads/file') ?>"><span class="head__fn__item">Files</span></a>
                         </div>
                     </li>                       
                     <li class="nav-item dropdown">
