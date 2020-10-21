@@ -10,6 +10,10 @@
                     <div class="breadcrumb__text">
                         <h2>Document</h2>
                     </div>
+                    <div class="breadcrumb__text__cc">
+                        <h3>เอกสารหนังสือชี้ชวน</h3>
+                        <a href="<?= base_url('downloads/brochure-softent.pdf'); ?>" class="primary-btn">Download PDF</a>
+                    </div>                  
                 </div>
             </div>
         </div>

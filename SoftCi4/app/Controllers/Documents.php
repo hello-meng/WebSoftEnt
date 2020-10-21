@@ -8,9 +8,24 @@ class Documents extends BaseController
 		return view('documents/document',$data);
 	}
 
-	public function download()
+	public function download($fileName = NULL)
 	{
-		$data['title'] = "Download";				
+		$data['title'] = "Download";	
+		
+		if($fileName)
+		{
+			$file = realpath("downlaods")."\\".$fileName;
+			if (file_exists($file))
+			{
+				$data = file_get_contents($file);
+				force_download($fileName,$data);
+			}
+			else
+			{
+				redirect(base_url());
+			}
+		}
+
 		return view('documents/download',$data);
 	}
 
