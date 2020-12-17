@@ -42,7 +42,7 @@
                     <p>
                         เข้าสู่ระบบ
                     </p>
-                    <div class="blog__details__pic">
+                    <div class="services__pic">
                         <img src="<?= base_url('img/products/buffet/picture1.jpg'); ?>" alt="">
                     </div>
                     <p>
